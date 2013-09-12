@@ -1,0 +1,22 @@
+My solution is quite straightforward.
+
+I assumed one wont put integer m into a n x n grid, if (m > n). But new verison of my code pre check the range of the number in 
+Sudoku and if out of range, then return false without entering any follow checking process.
+
+
+I check the row, then column then blocks iteratively.
+
+By check I mean by checking the n numbers within one row/column/block can reverse every value of a boolean array of size of n.
+
+Only method validSudoku() is made as public and others are all private.
+
+Put the test files, say, sampleInput.txt, in the package folder and also the args[0] is src/validateSudoku/sampleInput
+
+That's all.
+
+Thanks for considering me as a candidate!
+
+I am very much interested in joining your team!
+
+Hu
+
